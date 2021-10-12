@@ -1,0 +1,17 @@
+{
+    "name": "ethcaller",
+    "version": "0.0.1",
+    "description": "an app for simple contract calls",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js --inspect",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Karbafoo",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.22.0",
+        "ethers": "^5.4.7",
+        "fastify": "^3.22.0"
+    }
+}
